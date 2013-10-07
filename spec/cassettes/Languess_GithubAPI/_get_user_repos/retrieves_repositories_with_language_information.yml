@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Mon, 07 Oct 2013 12:23:30 GMT
+      - Mon, 07 Oct 2013 16:06:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Connection:
@@ -27,9 +27,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '12'
+      - '41'
       X-Ratelimit-Reset:
-      - '1381148728'
+      - '1381162806'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Last-Modified:
@@ -53,7 +53,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - '*'
       X-Github-Request-Id:
-      - 522DF255:78F1:65FC0A7:5252A7C2
+      - 522DF255:3B8C:6910933:5252DBEE
     body:
       encoding: UTF-8
       string: '[{"id":5218130,"name":"8-bit-olympics-data-vis","full_name":"defsprite/8-bit-olympics-data-vis","owner":{"login":"defsprite","id":165219,"avatar_url":"https://1.gravatar.com/avatar/606ccd1c2885715ea0e5594132b5b3ef?d=https%3A%2F%2Fidenticons.github.com%2Fcb407b8a1367eb75b61ff34dc6fa9c4e.png","gravatar_id":"606ccd1c2885715ea0e5594132b5b3ef","url":"https://api.github.com/users/defsprite","html_url":"https://github.com/defsprite","followers_url":"https://api.github.com/users/defsprite/followers","following_url":"https://api.github.com/users/defsprite/following{/other_user}","gists_url":"https://api.github.com/users/defsprite/gists{/gist_id}","starred_url":"https://api.github.com/users/defsprite/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/defsprite/subscriptions","organizations_url":"https://api.github.com/users/defsprite/orgs","repos_url":"https://api.github.com/users/defsprite/repos","events_url":"https://api.github.com/users/defsprite/events{/privacy}","received_events_url":"https://api.github.com/users/defsprite/received_events","type":"User"},"private":false,"html_url":"https://github.com/defsprite/8-bit-olympics-data-vis","description":"8
@@ -85,5 +85,5 @@ http_interactions:
         twitterwall that shows most frequently used words from tweets with a certain
         hashtag","fork":false,"url":"https://api.github.com/repos/defsprite/tweetmob","forks_url":"https://api.github.com/repos/defsprite/tweetmob/forks","keys_url":"https://api.github.com/repos/defsprite/tweetmob/keys{/key_id}","collaborators_url":"https://api.github.com/repos/defsprite/tweetmob/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/defsprite/tweetmob/teams","hooks_url":"https://api.github.com/repos/defsprite/tweetmob/hooks","issue_events_url":"https://api.github.com/repos/defsprite/tweetmob/issues/events{/number}","events_url":"https://api.github.com/repos/defsprite/tweetmob/events","assignees_url":"https://api.github.com/repos/defsprite/tweetmob/assignees{/user}","branches_url":"https://api.github.com/repos/defsprite/tweetmob/branches{/branch}","tags_url":"https://api.github.com/repos/defsprite/tweetmob/tags","blobs_url":"https://api.github.com/repos/defsprite/tweetmob/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/defsprite/tweetmob/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/defsprite/tweetmob/git/refs{/sha}","trees_url":"https://api.github.com/repos/defsprite/tweetmob/git/trees{/sha}","statuses_url":"https://api.github.com/repos/defsprite/tweetmob/statuses/{sha}","languages_url":"https://api.github.com/repos/defsprite/tweetmob/languages","stargazers_url":"https://api.github.com/repos/defsprite/tweetmob/stargazers","contributors_url":"https://api.github.com/repos/defsprite/tweetmob/contributors","subscribers_url":"https://api.github.com/repos/defsprite/tweetmob/subscribers","subscription_url":"https://api.github.com/repos/defsprite/tweetmob/subscription","commits_url":"https://api.github.com/repos/defsprite/tweetmob/commits{/sha}","git_commits_url":"https://api.github.com/repos/defsprite/tweetmob/git/commits{/sha}","comments_url":"https://api.github.com/repos/defsprite/tweetmob/comments{/number}","issue_comment_url":"https://api.github.com/repos/defsprite/tweetmob/issues/comments/{number}","contents_url":"https://api.github.com/repos/defsprite/tweetmob/contents/{+path}","compare_url":"https://api.github.com/repos/defsprite/tweetmob/compare/{base}...{head}","merges_url":"https://api.github.com/repos/defsprite/tweetmob/merges","archive_url":"https://api.github.com/repos/defsprite/tweetmob/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/defsprite/tweetmob/downloads","issues_url":"https://api.github.com/repos/defsprite/tweetmob/issues{/number}","pulls_url":"https://api.github.com/repos/defsprite/tweetmob/pulls{/number}","milestones_url":"https://api.github.com/repos/defsprite/tweetmob/milestones{/number}","notifications_url":"https://api.github.com/repos/defsprite/tweetmob/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/defsprite/tweetmob/labels{/name}","created_at":"2011-07-01T09:40:43Z","updated_at":"2013-03-25T19:16:09Z","pushed_at":"2011-07-21T17:04:01Z","git_url":"git://github.com/defsprite/tweetmob.git","ssh_url":"git@github.com:defsprite/tweetmob.git","clone_url":"https://github.com/defsprite/tweetmob.git","svn_url":"https://github.com/defsprite/tweetmob","homepage":"","size":204,"watchers_count":1,"language":"JavaScript","has_issues":true,"has_downloads":true,"has_wiki":true,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":1,"master_branch":"master","default_branch":"master"}]'
     http_version: 
-  recorded_at: Mon, 07 Oct 2013 12:23:31 GMT
+  recorded_at: Mon, 07 Oct 2013 16:06:07 GMT
 recorded_with: VCR 2.6.0

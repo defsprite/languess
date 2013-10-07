@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe GithubAPI do
+describe Languess::GithubAPI do
 
-  let(:api) { GithubAPI.new }
+  let(:api) { Languess::GithubAPI.new }
 
   describe "#get_user_repos", :vcr do
 
@@ -17,19 +17,19 @@ describe GithubAPI do
     end
 
     it "raises an error if the user cannot be found" do
-      expect { api.get_user_repos("nonexistentusername12345678910") }.to raise_error(GithubAPI::Error)
+      expect { api.get_user_repos("nonexistentusername12345678910") }.to raise_error(Languess::GithubAPI::Error)
     end
 
     it "raises an error if something goes wrong during the API call" do
       stub_request(:get, /api\.github\.com/).to_timeout
 
-      expect { api.get_user_repos("rails") }.to raise_error(GithubAPI::Error)
+      expect { api.get_user_repos("rails") }.to raise_error(Languess::GithubAPI::Error)
     end
 
     it "raises an error if the response code other than success" do
       stub_request(:get, /api\.github\.com/).to_return(:status => 409)
 
-      expect { api.get_user_repos("rails") }.to raise_error(GithubAPI::Error)
+      expect { api.get_user_repos("rails") }.to raise_error(Languess::GithubAPI::Error)
     end
 
   end

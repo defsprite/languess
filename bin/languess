@@ -2,7 +2,7 @@
 require_relative '../lib/languess'
 
 if ARGV[0].nil? || ARGV[0].empty?
-puts <<-EOT
+  puts <<-EOT
 
 Usage: languess <github-username>
 
@@ -13,12 +13,12 @@ Options:
   none
 
 EOT
-exit(1)
+  exit(1)
 end
 
 begin
-puts Languess.new.guess_language_for(ARGV[0])
+  puts Languess.new.guess_language_for(ARGV[0])
 rescue Languess::Error => e
-puts e
-abort
+  puts e
+  abort
 end

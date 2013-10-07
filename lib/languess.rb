@@ -1,11 +1,11 @@
 require_relative 'languess/github_api'
 require_relative 'languess/stats_collector'
 
-class Languess
+module Languess
 
   class Error < StandardError; end
 
-  def guess_language_for(username)
+  def self.guess_language_for(username)
     raise ArgumentError.new("Please specify a username to guess the language for.") if username.nil? || username.empty?
 
     begin
