@@ -4,10 +4,14 @@
 
 Languess guesses the favourite language of any given github user.
 
-## Usage
 
+## Command line
+
+```
+bin/languess tenderlove
+```
+
+## Web application
 ```
 
 ```
-
-

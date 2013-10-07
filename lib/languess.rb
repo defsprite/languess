@@ -1,5 +1,5 @@
-require_relative 'github_api'
-require_relative 'stats_collector'
+require_relative 'languess/github_api'
+require_relative 'languess/stats_collector'
 
 class Languess
 
