@@ -19,6 +19,5 @@ end
 begin
   puts Languess.guess_language_for(ARGV[0])
 rescue Languess::Error => e
-  puts e
-  abort
+  abort(e)
 end

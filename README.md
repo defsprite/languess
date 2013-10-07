@@ -4,6 +4,10 @@
 
 Languess guesses the favourite language of any given github user. It consists of a small web frontend written in sinatra and a mini textual command line interface.
 
+## Installation
+
+Just run `bundle install`. In case you are not using rvm you, use `bundle exec` .
+
 
 ## Command line
 

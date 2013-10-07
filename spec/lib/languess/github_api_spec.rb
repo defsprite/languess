@@ -22,17 +22,14 @@ describe Languess::GithubAPI do
 
     it "raises an error if something goes wrong during the API call" do
       stub_request(:get, /api\.github\.com/).to_timeout
-
       expect { api.get_user_repos("rails") }.to raise_error(Languess::GithubAPI::Error)
     end
 
     it "raises an error if the response code other than success" do
       stub_request(:get, /api\.github\.com/).to_return(:status => 409)
-
       expect { api.get_user_repos("rails") }.to raise_error(Languess::GithubAPI::Error)
     end
 
   end
-
 
 end

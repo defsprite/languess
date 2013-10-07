@@ -22,6 +22,4 @@ describe Languess::StatsCollector do
 
   end
 
-
-
 end

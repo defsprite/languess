@@ -23,7 +23,6 @@ describe "The mini web frontend" do
       last_response.body.should =~ /Omikron Basic/
     end
 
-
     it "renders the error template in case of an error" do
       Languess.stub(:guess_language_for).and_raise(Languess::Error.new("BOOM!"))
 
@@ -41,7 +40,6 @@ describe "The mini web frontend" do
 
   end
 
-
   context "fully integrated", :vcr do
 
     it "shows 'Ruby' for the user 'rails'" do
@@ -52,6 +50,5 @@ describe "The mini web frontend" do
     end
 
   end
-
 
 end
