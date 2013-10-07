@@ -17,7 +17,7 @@ EOT
 end
 
 begin
-  puts Languess.new.guess_language_for(ARGV[0])
+  puts Languess.guess_language_for(ARGV[0])
 rescue Languess::Error => e
   puts e
   abort
