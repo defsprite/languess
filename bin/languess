@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+require_relative '../lib/languess'
+
+if ARGV[0].nil? || ARGV[0].empty?
+puts <<-EOT
+Usage: languess <github-username>
+
+Prints out the best guess for a GitHub user's favourite programming language based on his public repository information.
+
+Options:
+
+  none
+
+EOT
+exit(1)
+end
+
+begin
+puts Languess.new.guess_language_for(ARGV[0])
+rescue Languess::Error => e
+puts e
+abort
+end

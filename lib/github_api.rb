@@ -19,7 +19,7 @@ class GithubAPI
     begin
       res = @client.get(path, {:per_page => 1000}.merge(options))
     rescue => e
-      raise Error.new("Error during API call: #{e}")
+      raise Error.new("#{e}")
     end
     raise Error.new("Unexpected API response: #{res.inspect}") unless res.is_a?(Songkick::Transport::Response::OK)
 
