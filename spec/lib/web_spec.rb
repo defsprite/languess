@@ -24,7 +24,7 @@ describe "The mini web frontend" do
     end
 
     it "renders the error template in case of an error" do
-      Languess.stub(:guess_language_for).and_raise(Languess::Error.new("BOOM!"))
+      Languess.stub(:guess_language_for).and_raise(Languess::GithubAPI::Error.new("BOOM!"))
 
       post '/languess', :username => "some_user"
 

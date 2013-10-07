@@ -16,7 +16,7 @@ class LanguessWeb < Sinatra::Base
 
     begin
       @result = Languess.guess_language_for(params['username'])
-    rescue Languess::Error => e
+    rescue Languess::GithubAPI::Error => e
       @error = e
       halt erb :error
     end

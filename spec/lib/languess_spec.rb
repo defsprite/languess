@@ -17,9 +17,9 @@ describe Languess do
       expect { Languess.guess_language_for(nil) }.to raise_error(ArgumentError)
     end
 
-    it "raises a Languess::Error in case of an error" do
+    it "raises a Languess::GithubAPI::Error in case of an error" do
       stub_request(:get, /api\.github\.com/).to_return(:status => 409)
-      expect { Languess.guess_language_for("some_user") }.to raise_error(Languess::Error)
+      expect { Languess.guess_language_for("some_user") }.to raise_error(Languess::GithubAPI::Error)
     end
 
   end
