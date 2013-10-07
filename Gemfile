@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'songkick-transport'
-gem 'curb'
+gem 'httparty'
 
 gem 'rspec'
 gem 'vcr'
