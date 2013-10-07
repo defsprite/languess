@@ -17,9 +17,9 @@ module Languess
 
     private
 
-    def get(path, options = {})
+    def get(path)
       begin
-        res = @client.get(path, {:per_page => 1000}.merge(options))
+        res = @client.get(path, {:per_page => 1000})
       rescue => e
         raise Error.new("#{e}")
       end
