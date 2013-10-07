@@ -26,6 +26,12 @@ Start the Sinatra application as follows:
 (bundle exec) ruby lib/languess_web.rb
 ```
 
+or if you want to use `rackup`:
+
+```
+(bundle exec) rackup
+```
+
 You should now be able to access the mini web frontend on `localhost:4567`
 
 
