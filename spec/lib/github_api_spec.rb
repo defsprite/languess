@@ -16,6 +16,10 @@ describe GithubAPI do
       repositories.first.should have_key("language")
     end
 
+    it "raises an error if the user cannot be found" do
+      expect { api.get_user_repos("nonexistentusername12345678910") }.to raise_error(GithubAPI::Error)
+    end
+
     it "raises an error if something goes wrong during the API call" do
       stub_request(:get, /api\.github\.com/).to_timeout
 
