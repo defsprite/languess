@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require_relative 'languess'
+require 'languess'
 
 class LanguessWeb < Sinatra::Base
 

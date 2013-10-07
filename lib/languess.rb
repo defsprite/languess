@@ -1,5 +1,5 @@
-require_relative 'languess/github_api'
-require_relative 'languess/stats_collector'
+require 'languess/github_api'
+require 'languess/stats_collector'
 
 module Languess
 

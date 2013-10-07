@@ -6,6 +6,7 @@ gem 'httparty'
 gem 'sinatra'
 gem 'thin'
 
+gem 'rake'
 gem 'rspec'
 gem 'vcr'
 gem 'webmock'
