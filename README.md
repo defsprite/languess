@@ -6,15 +6,14 @@ Languess guesses the favourite language of any given github user. It consists of
 
 ## Installation
 
-Run `bundle install` once. In case you are not using rvm or an other gemset manager, prefix all command using `bundle exec`.
-
+Run `bundle install` once. In case you are not using rvm or another gemset manager, prefix all commands using `bundle exec`.
 
 ## Command line
 
 Just call `(bundle exec) bin/languess`, like so:
 
 ```
-$ bin/languess tenderlove
+$ (bundle exec) bin/languess tenderlove
 Ruby
 ```
 
