@@ -6,12 +6,12 @@ Languess guesses the favourite language of any given github user. It consists of
 
 ## Installation
 
-Just run `bundle install`. In case you are not using rvm you, use `bundle exec` .
+Run `bundle install` once. In case you are not using rvm or an other gemset manager, prefix all command using `bundle exec`.
 
 
 ## Command line
 
-Just call `bin/languess`, like so:
+Just call `(bundle exec) bin/languess`, like so:
 
 ```
 $ bin/languess tenderlove
@@ -21,12 +21,6 @@ Ruby
 ## Web application
 
 Start the Sinatra application as follows:
-
-```
-(bundle exec) ruby lib/languess_web.rb
-```
-
-or if you want to use `rackup`:
 
 ```
 (bundle exec) rackup

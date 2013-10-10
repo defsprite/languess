@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-require_relative '../lib/languess'
+$:.unshift File.expand_path("../../lib", __FILE__)
+require 'languess'
 
 if ARGV[0].nil? || ARGV[0].empty?
   puts <<-EOT
@@ -18,6 +19,6 @@ end
 
 begin
   puts Languess.guess_language_for(ARGV[0])
-rescue Languess::Error => e
+rescue GithubAPI::Error => e
   abort(e)
 end
